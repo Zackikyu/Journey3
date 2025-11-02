@@ -10,9 +10,9 @@ type NavigationItem = {
 
 const navigationItem: NavigationItem[] = [
     {href:"/",name:"Home"},
-    {href:"/packages",name:"Packages"},
-    {href:"/about",name:"About Us"},
-    {href:"/contacts",name:"Contacts"},
+    {href:"/hotel",name:"Hotel"},
+    {href:"/food",name:"Food"},
+    {href:"/attractions",name:"Attractions"},
 ]
 export default function Navbar() {
   return (
@@ -31,7 +31,7 @@ export default function Navbar() {
             {
                 navigationItem.map((item) => (
                     <Link 
-                    className ='text-black hover:text-primary hover:scale-105 transition-all duration-120 ease-out'
+                    className ='text-black font-bold hover:text-primary hover:scale-105 transition-all duration-120 ease-out'
                     key={`navitem-${item.name}`} href={item.href}>
                         {item.name}
                     </Link>
