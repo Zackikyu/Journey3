@@ -8,8 +8,8 @@ type NavigationItem = {
 };
 
 const navigationItem: NavigationItem[] = [
-    {href:"/",name:"Home"},
-    {href:"/Hotel",name:"Hotel"},
+  {href:"/",name:"Home"},
+    {href:"/hotel",name:"Hotel"},
     {href:"/food",name:"Food"},
     {href:"/attractions",name:"Attractions"},
 ];
