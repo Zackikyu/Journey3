@@ -8,10 +8,10 @@ type NavigationItem = {
 };
 
 const navigationItem: NavigationItem[] = [
-  { href: "/", name: "Home" },
-  { href: "/packages", name: "Packages" },
-  { href: "/about", name: "About Us" },
-  { href: "/contacts", name: "Contacts" },
+    {href:"/",name:"Home"},
+    {href:"/Hotel",name:"Hotel"},
+    {href:"/food",name:"Food"},
+    {href:"/attractions",name:"Attractions"},
 ];
 export default function Navbar() {
   return (
